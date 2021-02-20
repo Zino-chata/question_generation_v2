@@ -67,8 +67,8 @@ def qa_pipeline():
 
     #write to file
     generated_qas = json.dumps(generated_qas, indent=2)
-    if not os.exists("outputs"):
-        os.mkdir("outputs")
+    if not os.path.exists("outputs"):
+        os.makedirs("outputs")
     with open('outputs/temp_eqBank2.json', 'w') as outfile:
         outfile.write(generated_qas)
 
