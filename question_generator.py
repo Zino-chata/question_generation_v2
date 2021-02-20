@@ -10,6 +10,7 @@ import numpy as np
 import json
 import subprocess
 import shlex
+import os
 
 from haystack import Finder
 from haystack.document_store.elasticsearch import ElasticsearchDocumentStore
@@ -66,6 +67,8 @@ def qa_pipeline():
 
     #write to file
     generated_qas = json.dumps(generated_qas, indent=2)
+    if not os.exists("outputs"):
+        os.mkdir("outputs")
     with open('outputs/temp_eqBank2.json', 'w') as outfile:
         outfile.write(generated_qas)
 
@@ -115,7 +118,6 @@ def summarize(summarizer_,qa):
         to_summ = [Document(text=q_a["answer"])]
         summarized_answer = summarizer_.predict(to_summ,generate_single_summary=True)
         current_pair["answer"]=summarized_answer[0].text
-        print(current_pair["answer"])
 
         # ensure they are different
         if current_pair["answer"].lower() != q_a["answer"].lower():
