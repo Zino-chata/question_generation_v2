@@ -114,10 +114,12 @@ def summarize(summarizer_,qa):
         current_pair["question"] = q_a["question_new"]
         to_summ = [Document(text=q_a["answer"])]
         summarized_answer = summarizer_.predict(to_summ,generate_single_summary=True)
-        print(summarized_answer)
-        current_pair["answer"] = ' '.join(list(summarized_answer))
+        current_pair["answer"]=summarized_answer[0]["text"]
+        print(current_pair["answer"])
+
         # ensure they are different
         if current_pair["answer"].lower() != q_a["answer"].lower():
+            current_pair["original_answer"]=q_a["answer"]
             qa_pairs.append(current_pair)
 
     print("Generated ", len(qa_pairs), " questions")
