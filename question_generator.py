@@ -112,7 +112,7 @@ def summarize(summarizer_,qa):
     for q_a in qa:
         current_pair = {}
         current_pair["question"] = q_a["question_new"]
-        to_summ = [Document[q_a["answer"]]]
+        to_summ = [Document(q_a["answer"])]
         current_pair["answer"] = summarizer_.predict(to_summ,generate_single_summary=True)
         # ensure they are different
         if current_pair["answer"].lower() != q_a["answer"].lower():
