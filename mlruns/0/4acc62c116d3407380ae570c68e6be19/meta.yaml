@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/elozinoegonmwan/PycharmProjects/question_generation/mlruns/0/4acc62c116d3407380ae570c68e6be19/artifacts
+end_time: 1613796776266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 4acc62c116d3407380ae570c68e6be19
+run_uuid: 4acc62c116d3407380ae570c68e6be19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1613796722925
+status: 3
+tags: []
+user_id: chatadevops
