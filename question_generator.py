@@ -66,7 +66,7 @@ def qa_pipeline():
 
     #write to file
     generated_qas = json.dumps(generated_qas, indent=2)
-    with open('temp_eqBank2.json', 'w') as outfile:
+    with open('outputs/temp_eqBank2.json', 'w') as outfile:
         outfile.write(generated_qas)
 
 

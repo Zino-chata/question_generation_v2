@@ -1,4 +1,3 @@
 haystack
 question_generation
 rest_api
-src

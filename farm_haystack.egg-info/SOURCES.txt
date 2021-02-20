@@ -49,13 +49,21 @@ haystack/summarizer/transformers.py
 haystack/translator/__init__.py
 haystack/translator/base.py
 haystack/translator/transformers.py
+question_generation/__init__ 2.py
 question_generation/__init__.py
+question_generation/data_collator 2.py
 question_generation/data_collator.py
+question_generation/eval 2.py
 question_generation/eval.py
+question_generation/pipelines 2.py
 question_generation/pipelines.py
+question_generation/prepare_data 2.py
 question_generation/prepare_data.py
+question_generation/run_qg 2.py
 question_generation/run_qg.py
+question_generation/trainer 2.py
 question_generation/trainer.py
+question_generation/utils 2.py
 question_generation/utils.py
 rest_api/__init__.py
 rest_api/application.py
@@ -70,12 +78,3 @@ rest_api/controller/search.py
 rest_api/controller/utils.py
 rest_api/controller/errors/__init__.py
 rest_api/controller/errors/http_error.py
-src/__init__.py
-src/base.py
-src/base_v2.py
-src/resources/__init__.py
-src/resources/whxx_ngram_table.py
-src/resources/paraphraser/__init__.py
-src/resources/paraphraser/src/__init__.py
-src/resources/paraphraser/src/create_input_file.py
-src/resources/paraphraser/src/generate_paraphrases.py
