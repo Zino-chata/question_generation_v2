@@ -1,0 +1,130 @@
+{
+    "17;DATE": {
+        "context": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend Queen's University.",
+        "question": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged, when did to attend Queen's University??",
+        "question_para": "Elon Musk briefly studied at the University in Pretoria before relocating to Canada old, when did he attend Queen's University??",
+        "question_variant": "When did to attend Queen's University, Elon Musk briefly attended the University of Pretoria before moving to Canada aged?",
+        "question_variant_para": "When did Elon Musk attend Queen's University, did he briefly attend the Universidad de Pretoria before settling in Canada in old age?",
+        "score": 15.031290054321289
+    },
+    "1995;DATE": {
+        "context": "Elon Musk moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career.",
+        "question": "Elon Musk moved to California in, when did to attend Stanford University, but decided instead to pursue a business career??",
+        "question_para": "Elon Musk relocated to California. When did he attend Stanford University, but instead decided to pursue his business career??",
+        "question_variant": "When did to attend Stanford University, but decided instead to pursue a business career, Elon Musk moved to California in?",
+        "question_variant_para": "When Elon Musk went to Stanford University, but instead decided to pursue his business career, did he move to California?",
+        "score": 14.289804458618164
+    },
+    "CTO;ORG": {
+        "context": "Elon Musk is the founder, CEO, CTO, and chief designer of SpaceX.",
+        "question": "Elon Musk is the founder, CEO, what is and chief designer of SpaceX??",
+        "question_para": "Elon Musk is co-founder, CEO, who is and head designer of SpaceX??",
+        "question_variant": "What is and chief designer of SpaceX, Elon Musk is the founder, CEO?",
+        "question_variant_para": "What is SpaceX's chief designer, Elon Musk, its founder and CEO?",
+        "score": 13.972143173217773
+    },
+    "California;GPE": {
+        "context": "Elon Musk moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career.",
+        "question": "Elon Musk moved to, in what in 1995 to attend Stanford University, but decided instead to pursue a business career??",
+        "question_para": "Elon Musk relocated to Stanford University in 1995, but instead decided to pursue a career in business??",
+        "question_variant": "In what in 1995 to attend Stanford University, but decided instead to pursue a business career, Elon Musk moved to?",
+        "question_variant_para": "In 1995 Elon Musk decided to go to Stanford University, but instead pursued a business career.",
+        "score": 12.092508316040039
+    },
+    "Canada;GPE": {
+        "context": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend Queen's University.",
+        "question": "Elon Musk briefly attended the University of Pretoria before moving to, in what aged 17 to attend Queen's University??",
+        "question_para": "Elon Musk briefly studied at the University of Prestoria before moving on, at what age to attend Queen's University??",
+        "question_variant": "In what aged 17 to attend Queen's University, Elon Musk briefly attended the University of Pretoria before moving to?",
+        "question_variant_para": "At the age of 17 to go to Queen's University, Elon Musk went briefly to the University of Prestoria before moving there?",
+        "score": 14.159004211425781
+    },
+    "Elon Musk;EVENT": {
+        "context": "Elon Musk moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career.",
+        "question": "What event moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career??",
+        "question_para": "What event went to California to attend Stanford University in 1995, but decided to pursue a business career instead??",
+        "question_variant": "What event moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career??",
+        "question_variant_para": "What event went to California to attend Stanford University in 1995, but decided to pursue a business career instead??",
+        "score": 14.719404220581055
+    },
+    "Elon Musk;PERSON": {
+        "context": "Elon Musk moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career.",
+        "question": "Who was moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career??",
+        "question_para": "Who moved to California to attend Stanford University in 1995, but instead decided to pursue a business career??",
+        "question_variant": "Who was moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career??",
+        "question_variant_para": "Who moved to California to attend Stanford University in 1995, but instead decided to pursue a business career??",
+        "score": 16.036226272583008
+    },
+    "January 2021;DATE": {
+        "context": "A centibillionaire, Musk became the richest person in the world in January 2021,",
+        "question": "A centibillionaire, Musk became the richest person in the world in, when did?",
+        "question_para": "A one-hundred-billionaire, Musk became one of the richest people in the world, when did he?",
+        "question_variant": "When did , A centibillionaire, Musk became the richest person in the world in?",
+        "question_variant_para": "When did Musk become the richest human being in the world?",
+        "score": 15.107223510742188
+    },
+    "Jeff Bezos;PERSON": {
+        "context": "with an estimated net worth of $185 billion at the time, surpassing Jeff Bezos.",
+        "question": "With an estimated net worth of $185 billion at the time, surpassing, who was?",
+        "question_para": "With an assessed net worth of 185 billion dollars at the time, outstripping, who was?",
+        "question_variant": "Who was , with an estimated net worth of $185 billion at the time, surpassing?",
+        "question_variant_para": "Who was surpassing , with an expected net worth of $185 billion at the time?",
+        "score": 15.083662033081055
+    },
+    "Neuralink;GPE": {
+        "context": "Elon Musk is also the founder of The Boring Company and the co-founder of Neuralink.",
+        "question": "Elon Musk is also the founder of The Boring Company and the co-founder of, in what?",
+        "question_para": "Elon Musk has also founded The Boring Corporation and co-founded, in what?",
+        "question_variant": "In what , Elon Musk is also the founder of The Boring Company and the co-founder of?",
+        "question_variant_para": "In what, is Elon Musk also the founder and co-founder of \u201cThe Boring Company\u201d?",
+        "score": 17.45696449279785
+    },
+    "Pretoria;GPE": {
+        "context": "Musk was born to a Canadian mother and South African father and raised in Pretoria, South Africa.",
+        "question": "Musk was born to a Canadian mother and South African father and raised in, in what South Africa??",
+        "question_para": "Musk was born from a Canadian mother and a South-African father and grew up in what part of South Africa??",
+        "question_variant": "In what South Africa, Musk was born to a Canadian mother and South African father and raised in?",
+        "question_variant_para": "In what kind of South Africa was Musk born and raised by a Canadian woman and a South African father?",
+        "score": 14.86281967163086
+    },
+    "Queen's University;ORG": {
+        "context": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend Queen's University.",
+        "question": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend, what is?",
+        "question_para": "Elon Musk briefly studied at the Universidad de Pretoria before relocating to Canada at the age of 17.",
+        "question_variant": "What is , Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend?",
+        "question_variant_para": "What's , Elon Musk briefly went to the Universidad de Pretoria before he moved to Canada at the age of 17 to attend?",
+        "score": 18.37038803100586
+    },
+    "Stanford University;ORG": {
+        "context": "Elon Musk moved to California in 1995 to attend Stanford University, but decided instead to pursue a business career.",
+        "question": "Elon Musk moved to California in 1995 to attend, what is but decided instead to pursue a business career??",
+        "question_para": "Elon Musk relocated to California to attend, but instead decided to pursue a career in business??",
+        "question_variant": "What is but decided instead to pursue a business career, Elon Musk moved to California in 1995 to attend?",
+        "question_variant_para": "Instead of deciding to pursue a career in business, Elon Musk relocated to California to attend?",
+        "score": 16.68832015991211
+    },
+    "Tesla, Inc.;ORG": {
+        "context": "Elon Musk is also early investor, CEO, and product architect of Tesla, Inc.",
+        "question": "Elon Musk is also early investor, CEO, and product architect of, what is?",
+        "question_para": "Elon Musk is also an early investor, chief executive officer, and product designer of what?",
+        "question_variant": "What is , Elon Musk is also early investor, CEO, and product architect of?",
+        "question_variant_para": "What's , is Elon Musk also an early investor, CEO, and product architect?",
+        "score": 14.198062896728516
+    },
+    "The Boring Company;ORG": {
+        "context": "Elon Musk is also the founder of The Boring Company and the co-founder of Neuralink.",
+        "question": "Elon Musk is also the founder of, what is and the co-founder of Neuralink??",
+        "question_para": "Elon Musk also is the founder and co-founder of Neuralink??",
+        "question_variant": "What is and the co-founder of Neuralink, Elon Musk is also the founder of?",
+        "question_variant_para": "What is it, and is Neuralink's co-founder, Elon Musk, also its founder?",
+        "score": 18.51356315612793
+    },
+    "the University of Pretoria;ORG": {
+        "context": "Elon Musk briefly attended the University of Pretoria before moving to Canada aged 17 to attend Queen's University.",
+        "question": "Elon Musk briefly attended, what is before moving to Canada aged 17 to attend Queen's University??",
+        "question_para": "Elon Musk attended briefly, what before he moved to Canada at the age of 17 to go to Queen's University??",
+        "question_variant": "What is before moving to Canada aged 17 to attend Queen's University, Elon Musk briefly attended?",
+        "question_variant_para": "What's going on before he moves to Canada at the age of 17 to study at Queen's University, which Elon Musk attended briefly?",
+        "score": 17.801841735839844
+    }
+}

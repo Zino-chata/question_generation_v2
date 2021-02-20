@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/elozinoegonmwan/PycharmProjects/question_generation/mlruns/0/504dc4d87b0846438c0e4e072b14cf97/artifacts
+end_time: 1613666366018
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 504dc4d87b0846438c0e4e072b14cf97
+run_uuid: 504dc4d87b0846438c0e4e072b14cf97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1613666284404
+status: 3
+tags: []
+user_id: elozinoegonmwan

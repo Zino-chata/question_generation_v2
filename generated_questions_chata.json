@@ -1,0 +1,594 @@
+{
+    "3-Minute;CARDINAL": {
+        "awb": "How many Demo of how\u00a0AutoQL\u00a0\u2019s Data Messenger?",
+        "awb_para": "How many AutoQL Data Messenger demonstrations?",
+        "context": "3-Minute Demo of how\u00a0AutoQL\u00a0\u2019s Data Messenger",
+        "score": 5.380517482757568,
+        "wba": "How many Demo of how AutoQL \u2019s Data Messenger??",
+        "wba_para": "How many demonstrations of how AutoQL Data Messenger??"
+    },
+    "3-minute;CARDINAL": {
+        "awb": "Learn more about Data Messenger in this short, how many demo video??",
+        "awb_para": "Learn more about Data Messenger in this short, how many video demos??",
+        "context": "Learn more about Data Messenger in this short 3-minute demo video.",
+        "score": 11.629570007324219,
+        "wba": "How many demo video, Learn more about Data Messenger in this short?",
+        "wba_para": "How many demo videos, Learn more about Data Messenger in this short?"
+    },
+    "AI;GPE": {
+        "awb": "Open the door to delivering custom, in what solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of tomorrow??",
+        "awb_para": "Open the door to personalized delivery, in what solutions this scale, allowing you to gain credibility and loyalty as you push companies towards the future of data-driven tomorrow?",
+        "context": "Open the door to delivering custom AI solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powe",
+        "score": 12.039216995239258,
+        "wba": "In what solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of tomorrow, Open the door to delivering custom?",
+        "wba_para": "In what solutions does this scale allow you to gain credibility and loyalty as you drive companies towards the future of data-driven tomorrow, Open the door to personalized delivery?"
+    },
+    "AI;PERSON": {
+        "awb": "Open the door to delivering custom, who was solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of tomorrow??",
+        "awb_para": "Open the door to custom delivery, which were solutions on this scale, allowing you to gain credibility and loyalty as you propel businesses to the future of tomorrow's data-driven?",
+        "context": "Open the door to delivering custom AI solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powe",
+        "score": 12.073141098022461,
+        "wba": "Who was solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of tomorrow, Open the door to delivering custom?",
+        "wba_para": "Who were the solutions on this scale, allowing you to gain credibility and loyalty as you push companies towards the future of tomorrow, open the door to personalized delivery?"
+    },
+    "Access API Keys;PRODUCT": {
+        "awb": "What was history logs, and all sorts of things that help developers gain important insights and get important work done, faster??",
+        "awb_para": "What is history journals, and all kinds of things that help developers acquire important ideas and get important work done, faster??",
+        "context": "Access API Keys, history logs, and all sorts of things that help developers gain important insights and get important work done, faster.",
+        "score": 14.453788757324219,
+        "wba": "What was history logs, and all sorts of things that help developers gain important insights and get important work done, faster??",
+        "wba_para": "What is history journals, and all kinds of things that help developers acquire important ideas and get important work done, faster??"
+    },
+    "AutoQL;NORP": {
+        "awb": "The, what is API is organized around\u00a0REST??",
+        "awb_para": "API, what is the API organized around REST?",
+        "context": "The AutoQL API is organized around\u00a0REST.",
+        "score": 12.883424758911133,
+        "wba": "What is API is organized around REST, The?",
+        "wba_para": "What is the API organized around REST, The?"
+    },
+    "AutoQL;ORG": {
+        "awb": "The, what is API is organized around\u00a0REST??",
+        "awb_para": "API, what is the API organized around REST?",
+        "context": "The AutoQL API is organized around\u00a0REST.",
+        "score": 12.883424758911133,
+        "wba": "What is API is organized around REST, The?",
+        "wba_para": "What is the API organized around REST, The?"
+    },
+    "BI;ORG": {
+        "awb": "Keep users engaged in your app instead of losing Keep users to third-party, what is tools??",
+        "awb_para": "Keep users engaged in your application instead of losing Keep users to a third party, what are tools?",
+        "context": "Keep users engaged in your app instead of losing Keep users to third-party BI tools.",
+        "score": 11.918895721435547,
+        "wba": "What is tools, Keep users engaged in your app instead of losing Keep users to third-party?",
+        "wba_para": "What tools, Keep users engaged in your application instead of losing Keep users to a third party?"
+    },
+    "Boost;PERSON": {
+        "awb": "Who was revenue, attract new users, and add value for your existing loyal customers??",
+        "awb_para": "Who was the income, attracting new users and adding value to your existing loyal customers??",
+        "context": "Boost revenue, attract new users, and add value for your existing loyal customers.",
+        "score": 4.110097885131836,
+        "wba": "Who was revenue, attract new users, and add value for your existing loyal customers??",
+        "wba_para": "Who was the income, attracting new users and adding value to your existing loyal customers??"
+    },
+    "Business;ORG": {
+        "awb": "What is users across every role and department benefit from an intuitive and reliable solution that allows, what is users across every role and department to access, what is users across every role and department data, whenever, what is users across every role and department need it??",
+        "awb_para": "What do users of all roles and departments benefit from an intuitive and reliable solution that allows users of all roles and departments to access, what are users of all roles and all departmental data, whenever, who are users of all roles and all departments need it??",
+        "context": " role and department to access Business users across every role and department data, whenever Business users across every role and department need it.",
+        "score": 2.824934959411621,
+        "wba": "What is users across every role and department benefit from an intuitive and reliable solution that allows Business users across every role and department to access Business users across every role and department data, whenever Business users across every role and department need it??",
+        "wba_para": "What benefits do users of each role and department benefit from an intuitive and reliable solution that allows business users of all roles and departments to access business users of all roles and data of the department, whenever business users of all roles and departments need it?"
+    },
+    "CUI;ORG": {
+        "awb": "Once we\u2019ve set up a data source connection and built a custom machine learning model specific to your database, it\u2019ll be your turn to build a custom conversational user interface, what is that will serve as a natural language interface to your database??",
+        "awb_para": "Once we have configured a data source connection and built a custom machine learning model specific to your database, it will be your turn to build a custom conversational user interface, what will it serve as a natural language interface to your database?",
+        "context": "r database, it\u2019ll be your turn to build a custom conversational user interface (CUI) that will serve as a natural language interface to your database.",
+        "score": 10.160545349121094,
+        "wba": "What is that will serve as a natural language interface to your database, Once we\u2019ve set up a data source connection and built a custom machine learning model specific to your database, it\u2019ll be your turn to build a custom conversational user interface?",
+        "wba_para": "What will it serve as a natural language interface to your database, Once we have configured a data source connection and built a custom machine learning model specific to your database, it will be your turn to build a custom conversational user interface?"
+    },
+    "CX;ORG": {
+        "awb": "Rely on our expert team of data scientists and, what is professionals at every stage??",
+        "awb_para": "Building on our team of data science experts and, what are professionals at each stage?",
+        "context": "Rely on our expert team of data scientists and CX professionals at every stage.",
+        "score": 11.62564468383789,
+        "wba": "What is professionals at every stage, Rely on our expert team of data scientists and?",
+        "wba_para": "What are professionals at every stage, Rely on our team of data scientists experts and?"
+    },
+    "Chata\u00a0;ORG": {
+        "awb": "Sign up to receive updates from our team here at, what is?",
+        "awb_para": "Sign up to receive updates from our team here at, what is?",
+        "context": "Sign up to receive updates from our team here at Chata\u00a0.",
+        "score": 11.781071662902832,
+        "wba": "What is , Sign up to receive updates from our team here at?",
+        "wba_para": "What, Sign up to receive updates from our team here at?"
+    },
+    "Chata\u2019s;ORG": {
+        "awb": "What is?",
+        "awb_para": "What?",
+        "context": "This means the system is trained to determine what a user is referring to, even when that meaning is not explicit.",
+        "score": 6.184541702270508,
+        "wba": "What is??",
+        "wba_para": "What's that?"
+    },
+    "Configuration;GPE": {
+        "awb": "In what can be done through the simplified GUI in the Portal??",
+        "awb_para": "What can be done through the simplified graphical interface in the portal??",
+        "context": "Configuration can be done through the simplified GUI in the Portal.",
+        "score": 8.127111434936523,
+        "wba": "In what can be done through the simplified GUI in the Portal??",
+        "wba_para": "What can be done through the simplified graphical interface in the portal??"
+    },
+    "Conversational AI for Database Access;ORG": {
+        "awb": "What is?",
+        "awb_para": "What?",
+        "context": "This means the system is trained to determine what a user is referring to, even when that meaning is not explicit.",
+        "score": 6.184541702270508,
+        "wba": "What is??",
+        "wba_para": "What's that?"
+    },
+    "DBQL;ORG": {
+        "awb": "Through our API, AutoQL receives, understands, and interprets natural language queries, dynamically generates a corresponding database query language statement, executes the, what is statement against the database through a read-only connection, and returns relevant data to the end user within seconds??",
+        "awb_para": "Thanks to our API, AutoQL receives, understands and interprets requests in natural language, dynamically generates a language query from the corresponding database, executes the instruction, what is the instruction against the database via a read-only connection, and returns the relevant data to the end user in seconds?",
+        "context": "tes a corresponding database query language statement, executes the DBQL statement against the database through a read-only connection, and returns re",
+        "score": 10.811333656311035,
+        "wba": "What is statement against the database through a read-only connection, and returns relevant data to the end user within seconds, Through our API, AutoQL receives, understands, and interprets natural language queries, dynamically generates a corresponding database query language statement, executes the?",
+        "wba_para": "What is the instruction against the database by a read-only connection, and returns the relevant data to the end user in a few seconds, Through our API, AutoQL receives, understands and interprets requests in natural language, dynamically generates a language request from the corresponding database, executes it?"
+    },
+    "Dashboards;EVENT": {
+        "awb": "We\u2019ve also developed flexible widgets like Data Messenger and, what event so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools??",
+        "awb_para": "We have also developed flexible widgets like Data Messenger and, what event so developers can easily integrate AutoQL and support the class's best user experiences on the front of developers' tools?",
+        "context": "We\u2019ve also developed flexible widgets like Data Messenger and Dashboards so developers can easily integrate AutoQL and support best-in-class user expe",
+        "score": 11.777509689331055,
+        "wba": "What event so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools, We\u2019ve also developed flexible widgets like Data Messenger and?",
+        "wba_para": "Which event allows developers to easily integrate AutoQL and support the experiences of the most powerful users in the foreground of developers' tools, We have also developed flexible widgets like Data Messenger and?"
+    },
+    "Dashboards;GPE": {
+        "awb": "We\u2019ve also developed flexible widgets like Data Messenger and, in what so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools??",
+        "awb_para": "We have also developed flexible widgets like Data Messenger and how can developers easily integrate AutoQL and support the best class user experiences on the front of developers' tools?",
+        "context": "We\u2019ve also developed flexible widgets like Data Messenger and Dashboards so developers can easily integrate AutoQL and support best-in-class user expe",
+        "score": 13.431324005126953,
+        "wba": "In what so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools, We\u2019ve also developed flexible widgets like Data Messenger and?",
+        "wba_para": "In what allows developers to easily integrate AutoQL and support the best class user experiences on the foreground of developers' tools, We also developed flexible widgets like Data Messenger and?"
+    },
+    "Dashboards;NORP": {
+        "awb": "We\u2019ve also developed flexible widgets like Data Messenger and, what is so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools??",
+        "awb_para": "We have also developed flexible widgets like Data Messenger and, what allows developers to easily integrate AutoQL and support the best class user experiences on the front of developers' tools??",
+        "context": "We\u2019ve also developed flexible widgets like Data Messenger and Dashboards so developers can easily integrate AutoQL and support best-in-class user expe",
+        "score": 16.154672622680664,
+        "wba": "What is so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools, We\u2019ve also developed flexible widgets like Data Messenger and?",
+        "wba_para": "What allows developers to easily integrate AutoQL and support the best class user experiences in the foreground of developers' tools, We have also developed flexible widgets like Data Messenger and?"
+    },
+    "Dashboards;PRODUCT": {
+        "awb": "We\u2019ve also developed flexible widgets like Data Messenger and, what was so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools??",
+        "awb_para": "We also developed flexible widgets like Data Messenger and, what enabled developers to easily integrate AutoQL and support the best class user experiences on the front of developers' tools?",
+        "context": "We\u2019ve also developed flexible widgets like Data Messenger and Dashboards so developers can easily integrate AutoQL and support best-in-class user expe",
+        "score": 16.249662399291992,
+        "wba": "What was so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools, We\u2019ve also developed flexible widgets like Data Messenger and?",
+        "wba_para": "What has enabled developers to easily integrate AutoQL and support the best-performing user experiences in front of developers' tools, We have also developed flexible widgets like Data Messenger and?"
+    },
+    "Data Messenger;PERSON": {
+        "awb": "We\u2019ve also developed flexible widgets like, who was and Dashboards so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools??",
+        "awb_para": "We also developed flexible widgets like, who was and Dashboards so developers can easily integrate AutoQL and support the class's best user experiences on the front of developers' tools??",
+        "context": "We\u2019ve also developed flexible widgets like Data Messenger and Dashboards so developers can easily integrate AutoQL and support best-in-class user expe",
+        "score": 15.123607635498047,
+        "wba": "Who was and Dashboards so developers can easily integrate AutoQL and support best-in-class user experiences on the front end of developers tools, We\u2019ve also developed flexible widgets like?",
+        "wba_para": "Who was and Dashboards so developers can easily integrate AutoQL and support the best class user experiences on the front of developers' tools, We also developed flexible widgets like?"
+    },
+    "Developer Docs;ORG": {
+        "awb": "Learn more about what principles guide our API, how to manage API keys, and more in our API Reference or in our, what is?",
+        "awb_para": "Learn more about the principles that guide our API, how to manage API keys, and even more in our Reference API or in our, what is?",
+        "context": "Learn more about what principles guide our API, how to manage API keys, and more in our API Reference or in our Developer Docs.",
+        "score": 15.624058723449707,
+        "wba": "What is , Learn more about what principles guide our API, how to manage API keys, and more in our API Reference or in our?",
+        "wba_para": "What, Learn more about what principles guide our API, how to manage API keys, and more in our Reference API or in our?"
+    },
+    "Electron;ORG": {
+        "awb": "Integrations with web\u2013based\u00a0services are ideal, but our\u00a0widgets will also\u00a0run in an, what is wrapper or\u00a0similar\u00a0technology for use in desktop applications??",
+        "awb_para": "Integrations with online services are ideal, but our widgets will also work in one, what is packaging or similar technology for use in desktop applications?",
+        "context": "rations with web\u2013based\u00a0services are ideal, but our\u00a0widgets will also\u00a0run in an\u00a0Electron wrapper or\u00a0similar\u00a0technology for use in desktop applications.",
+        "score": 15.25947380065918,
+        "wba": "What is wrapper or similar technology for use in desktop applications, Integrations with web\u2013based services are ideal, but our widgets will also run in an?",
+        "wba_para": "What is packaging or similar technology for use in desktop applications, Integrations with online services are ideal, but our widgets will also work in one?"
+    },
+    "English;LANGUAGE": {
+        "awb": "As users ask questions, users conversational, what language will be sent up to our cloud and translated into a query language appropriate for your database??",
+        "awb_para": "As users ask questions, user conversation, what language will be sent to our cloud and translated into an appropriate query language for your database??",
+        "context": "As users ask questions, users conversational English will be sent up to our cloud and translated into a query language appropriate for your database.",
+        "score": 11.86524486541748,
+        "wba": "What language will be sent up to our cloud and translated into a query language appropriate for your database, As users ask questions, users conversational?",
+        "wba_para": "What language will be sent to our cloud and translated into an appropriate query language for your database, As users ask questions, conversation users?"
+    },
+    "Establish;NORP": {
+        "awb": "What is your team as innovation trailblazers by introducing the world\u2019s first conversational AI solution for data access to your tech stack??",
+        "awb_para": "What is your team as an innovation trailblazer by introducing the world's first conversational AI solution for accessing data from your technology stack??",
+        "context": "Establish your team as innovation trailblazers by introducing the world\u2019s first conversational AI solution for data access to your tech stack.",
+        "score": 1.3842304944992065,
+        "wba": "What is your team as innovation trailblazers by introducing the world\u2019s first conversational AI solution for data access to your tech stack??",
+        "wba_para": "What is your team as an innovation trailblazer by introducing the world's first conversational AI solution for accessing data from your technology stack??"
+    },
+    "Expand;GPE": {
+        "awb": "In what current business, attract new customers, and capitalize on recurring revenue-generating activities??",
+        "awb_para": "Which company currently attracts new customers and capitalizes on recurring revenue-generating activities??",
+        "context": "Expand current business, attract new customers, and capitalize on recurring revenue-generating activities.",
+        "score": 9.42535400390625,
+        "wba": "In what current business, attract new customers, and capitalize on recurring revenue-generating activities??",
+        "wba_para": "Which company currently attracts new customers and capitalizes on recurring revenue-generating activities??"
+    },
+    "Expenses\u201d\u2019d;ORG": {
+        "awb": "What is be much more equipped to provide an answer to you??",
+        "awb_para": "What is much more equipped to provide you with an answer??",
+        "context": "Expenses\u201d\u2019d be much more equipped to provide an answer to you.",
+        "score": 12.532388687133789,
+        "wba": "What is be much more equipped to provide an answer to you??",
+        "wba_para": "What is much more equipped to provide you with an answer??"
+    },
+    "Flexible Front End Implementations;ORG": {
+        "awb": "What is?",
+        "awb_para": "What?",
+        "context": "This means the system is trained to determine what a user is referring to, even when that meaning is not explicit.",
+        "score": 6.184541702270508,
+        "wba": "What is??",
+        "wba_para": "What's that?"
+    },
+    "GUI;ORG": {
+        "awb": "Configuration can be done through the simplified, what is in the Portal??",
+        "awb_para": "The configuration can be done through the simplified portal, what is in the portal??",
+        "context": "Configuration can be done through the simplified GUI in the Portal.",
+        "score": 11.268308639526367,
+        "wba": "What is in the Portal, Configuration can be done through the simplified?",
+        "wba_para": "What is in the portal, Configuration can be done through simplification?"
+    },
+    "Integrator Portal;PERSON": {
+        "awb": "The, who was contains tools for developers, data for product managers, and serves as a helpful and easy-to-navigate interface that enables you to facilitate many functionalities of the API??",
+        "awb_para": "The, which was containing tools for developers, data for product managers, and serves as a useful and easy to navigate interface that allows you to facilitate many features of the API?",
+        "context": "the Integrator Portal contains tools for developers, data for product managers, and serves as a helpful and easy-to-navigate interface that enables yo",
+        "score": 10.522974014282227,
+        "wba": "Who was contains tools for developers, data for product managers, and serves as a helpful and easy-to-navigate interface that enables you to facilitate many functionalities of the API, the?",
+        "wba_para": "Who contains tools for developers, data for product managers, and serves as a useful and easy to navigate interface that allows you to facilitate many features of the API, the?"
+    },
+    "Integrators;ORG": {
+        "awb": "No POC fees and no implementation fees derisks the go-to-market process for our, what is?",
+        "awb_para": "No COP fees and no implementation fees risk the marketing process for us, what is it?",
+        "context": "No POC fees and no implementation fees derisks the go-to-market process for our Integrators.",
+        "score": 14.596088409423828,
+        "wba": "What is , No POC fees and no implementation fees derisks the go-to-market process for our?",
+        "wba_para": "What, No COP fees and no implementation fees risks the marketing process for our?"
+    },
+    "JWT;ORG": {
+        "awb": "Learn more about We security best practices and how We use, what is to enable secure access to We API??",
+        "awb_para": "Learn more about We security best practices and how We use, what is to easy secure access to We API?",
+        "context": "Learn more about We security best practices and how We use JWT to enable secure access to We API.",
+        "score": 14.228609085083008,
+        "wba": "What is to enable secure access to We API, Learn more about We security best practices and how We use?",
+        "wba_para": "What allows secure access to We API, Learn more about Us best security practices and how We use?"
+    },
+    "Jane Doe;PERSON": {
+        "awb": "For example, a user might ask \u201cHow many of each item did, who was buy last month??",
+        "awb_para": "For example, a user could ask \"How many of each item did, which was purchased last month??",
+        "context": "For example, a user might ask \u201cHow many of each item did Jane Doe buy last month?",
+        "score": 10.591461181640625,
+        "wba": "Who was buy last month, For example, a user might ask \u201cHow many of each item did?",
+        "wba_para": "Who was bought last month, for example, a user could ask \"How much of each item did?"
+    },
+    "Jane Doe\u201d;PERSON": {
+        "awb": "Who was exists in that user\u2019s database so an optimal database query can be generated and executed dynamically, In the context of this query, we only store the information that the customer?",
+        "awb_para": "Who existed in this user's database so that an optimal database request can be generated and executed dynamically, In the context of this request, we only store the information that the client?",
+        "context": "ontext of this query, we only store the information that the customer \u201cJane Doe\u201d exists in that user\u2019s database so an optimal database query can be ge",
+        "score": 11.934822082519531,
+        "wba": "In the context of this query, we only store the information that the customer, who was exists in that user\u2019s database so an optimal database query can be generated and executed dynamically??",
+        "wba_para": "In the context of this request, we only store the information only the client, who existed in that user's database so that an optimal database request can be generated and executed dynamically?"
+    },
+    "Learn;PERSON": {
+        "awb": "Who was more about what principles guide our API, how to manage API keys, and more in our API Reference or in our Developer Docs??",
+        "awb_para": "Who was more about what principles guide our API, how to manage API keys, and even more in our Reference API or in our Developer Docs??",
+        "context": "More information can be found in We Developer Docs.",
+        "score": 2.984192371368408,
+        "wba": "Who was more about what principles guide our API, how to manage API keys, and more in our API Reference or in our Developer Docs??",
+        "wba_para": "Who was more about what principles guide our API, how to manage API keys, and even more in our Reference API or in our Developer Docs??"
+    },
+    "MIT;ORG": {
+        "awb": "All components are, what is licensed and open source??",
+        "awb_para": "All components are, what is the license and open source??",
+        "context": "all components are MIT licensed and open source.",
+        "score": 9.936874389648438,
+        "wba": "What is licensed and open source, all components are?",
+        "wba_para": "What is the license and open source, all components are?"
+    },
+    "POC;ORG": {
+        "awb": "No, what is fees and no implementation fees derisks the go-to-market process for our Integrators??",
+        "awb_para": "No, what does the costs and costs of implementation distort the marketing process of our integrators??",
+        "context": "No POC fees and no implementation fees derisks the go-to-market process for our Integrators.",
+        "score": 15.297345161437988,
+        "wba": "What is fees and no implementation fees derisks the go-to-market process for our Integrators, No?",
+        "wba_para": "What costs and no implementation costs are at risk for our integrators' marketing process, right?"
+    },
+    "Portal;ORG": {
+        "awb": "In the, what is you have total visibility into common query trends, allowing you to highlight points of friction and see what data is in highest demand??",
+        "awb_para": "In the, what is your total visibility in common query trends, allowing you to highlight friction points and see which data are in highest demand??",
+        "context": "In the Portal, you have total visibility into common query trends, allowing you to highlight points of friction and see what data is in highest demand",
+        "score": 7.1968584060668945,
+        "wba": "What is you have total visibility into common query trends, allowing you to highlight points of friction and see what data is in highest demand, In the?",
+        "wba_para": "What is your total visibility in common query trends, allowing you to highlight friction points and see what are the highest demand data, In the?"
+    },
+    "Proof of Concept;ORG": {
+        "awb": "We do, however, offer a no-cost, no-commitment, what is?",
+        "awb_para": "However, we offer a non-cost, no commitment, what is it?",
+        "context": "we do, however, offer a no-cost, no-commitment Proof of Concept.",
+        "score": 16.823871612548828,
+        "wba": "What is , we do, however, offer a no-cost, no-commitment?",
+        "wba_para": "What do we do, however, offer a no-cost, no-commitment?"
+    },
+    "ROI;PERSON": {
+        "awb": "Earn referral revenue and leverage shared informational resources so you and your customers realize value and see high, who was fast??",
+        "awb_para": "Earn referral revenues and exploit shared information resources so that you and your clients realize value and see high, who was fast?",
+        "context": "Earn referral revenue and leverage shared informational resources so you and your customers realize value and see high ROI, fast.",
+        "score": 6.514145851135254,
+        "wba": "Who was fast, Earn referral revenue and leverage shared informational resources so you and your customers realize value and see high?",
+        "wba_para": "Who was quick, Get reference revenues and use shared information resources so that you and your clients realize value and see high?"
+    },
+    "React Widgets;ORG": {
+        "awb": "We currently offer these as, what is Vanilla JS Widgets,\u00a0iOS Components, and\u00a0Android Components??",
+        "awb_para": "We currently offer these subs, what is Vanilla JS Widgets, iOS Components, and Android Components?",
+        "context": "We currently offer these as React Widgets,\u00a0Vanilla JS Widgets,\u00a0iOS Components, and\u00a0Android Components.",
+        "score": 13.98900032043457,
+        "wba": "What is Vanilla JS Widgets, iOS Components, and Android Components, We currently offer these as?",
+        "wba_para": "What is Vanilla JS Widgets, iOS Components and Android Components, We currently offer them as?"
+    },
+    "SQL;ORG": {
+        "awb": "When it comes to accessing information from a business\u2019 relational database, team members are typically required to write and run database query language statements (DBQL) like, what is?",
+        "awb_para": "When it comes to accessing information from a company's relational database, team members are generally required to write and execute database request language statements (DBQL), what is the issue?",
+        "context": "The AutoQL API is a powerful and secure API that dynamically translates natural language to database query languages.",
+        "score": 11.23263168334961,
+        "wba": "What is , When it comes to accessing information from a business\u2019 relational database, team members are typically required to write and run database query language statements (DBQL) like?",
+        "wba_para": "What, When it comes to accessing the information of a company's relational database, team members are generally required to write and execute Database Request Language Statements (DBQL) like?"
+    },
+    "SQL;PRODUCT": {
+        "awb": "When it comes to accessing information from a business\u2019 relational database, team members are typically required to write and run database query language statements (DBQL) like, what was?",
+        "awb_para": "When it comes to accessing information from a company's relational database, team members are generally required to write and execute database request language statements (DBQL) such as, what was?",
+        "context": "The AutoQL API is a powerful and secure API that dynamically translates natural language to database query languages.",
+        "score": 12.151811599731445,
+        "wba": "What was , When it comes to accessing information from a business\u2019 relational database, team members are typically required to write and run database query language statements (DBQL) like?",
+        "wba_para": "What was it, When it comes to accessing information from a company's relational database, team members are generally required to write and execute Database Request Language Statements (DBQL) as?"
+    },
+    "Software Solution Providers;ORG": {
+        "awb": "FACT SHEET: Benefits of how\u00a0AutoQL\u00a0 for, what is?",
+        "awb_para": "BACKGROUNDER: Advantages of how AutoQL for, what is?",
+        "context": "FACT SHEET: Benefits of how\u00a0AutoQL\u00a0 for Software Solution Providers",
+        "score": 16.75945281982422,
+        "wba": "What is , FACT SHEET: Benefits of how AutoQL for?",
+        "wba_para": "What is, FACT CHEET: Advantages of how AutoQL for?"
+    },
+    "The Integrator Portal;ORG": {
+        "awb": "What is has a variety of uses including??",
+        "awb_para": "What is a variety of uses, including??",
+        "context": "The Integrator Portal has a variety of uses including:",
+        "score": 12.764598846435547,
+        "wba": "What is has a variety of uses including??",
+        "wba_para": "What is a variety of uses, including??"
+    },
+    "Unique;ORG": {
+        "awb": "What is labels are taken into account during the integration and training processes, and we\u2019ve built in a machine learning model that is trained to disambiguate value labels based on the context of the question being asked??",
+        "awb_para": "What are the labels taken into account during integration and training processes, and we have built into a machine learning model that is trained to deambigate value labels according to the context of the question asked??",
+        "context": "Unique labels are taken into account during the integration and training processes, and we\u2019ve built in a machine learning model that is trained to dis",
+        "score": 5.4183526039123535,
+        "wba": "What is labels are taken into account during the integration and training processes, and we\u2019ve built in a machine learning model that is trained to disambiguate value labels based on the context of the question being asked??",
+        "wba_para": "What are the labels taken into account during integration and training processes, and we have built into a machine learning model that is trained to deambigate value labels according to the context of the question asked??"
+    },
+    "User Error;PERSON": {
+        "awb": "Ambiguous Input or, who was?",
+        "awb_para": "Ambiguous entry or, who was?",
+        "context": "Ambiguous Input or User Error:",
+        "score": 12.955564498901367,
+        "wba": "Who was , Ambiguous Input or?",
+        "wba_para": "Who was the Ambigueux Input or?"
+    },
+    "Users;ORG": {
+        "awb": "What is simply ask questions about, what is data in, what is own words and immediately receive responses in easy-to-understand visualizations??",
+        "awb_para": "What simply asks questions about, what the data consists of, what its own words are and immediately receive answers in easy-to-understand visualizations?",
+        "context": "Users simply ask questions about Users data in Users own words and immediately receive responses in easy-to-understand visualizations.",
+        "score": 5.895200729370117,
+        "wba": "What is simply ask questions about Users data in Users own words and immediately receive responses in easy-to-understand visualizations??",
+        "wba_para": "What simply asks questions about user data in user-specific words and receive answers immediately in easy-to-understand visualizations?"
+    },
+    "every day;DATE": {
+        "awb": "We\u2019re dedicated to working with We customers and partners to reimagine the future of data accessibility and transform the way business users interact with data, when did?",
+        "awb_para": "We are dedicated to working with We clients and partners to reimaginate the future of data accessibility and transform the way commercial users interact with data, when did it?",
+        "context": "orking with We customers and partners to reimagine the future of data accessibility and transform the way business users interact with data every day.",
+        "score": 14.015241622924805,
+        "wba": "When did , We\u2019re dedicated to working with We customers and partners to reimagine the future of data accessibility and transform the way business users interact with data?",
+        "wba_para": "When, We are dedicated to working with We clients and partners to reimagin the future of data accessibility and transform the way commercial users interact with data?"
+    },
+    "first;ORDINAL": {
+        "awb": "Developers are supported through our comprehensive developer, where does resources and robust Integrator Portal, empowering Developers to build and deliver new value quickly and confidently??",
+        "awb_para": "Developers are supported by our complete developer, where resources and the robust integrator portal, giving developers the opportunity to build and deliver new value quickly and confidently??",
+        "context": "Developers are supported through our comprehensive developer-first resources and robust Integrator Portal, empowering Developers to build and deliver ",
+        "score": 4.136363983154297,
+        "wba": "Where does resources and robust Integrator Portal, empowering Developers to build and deliver new value quickly and confidently, Developers are supported through our comprehensive developer?",
+        "wba_para": "Where resources and the robust integrator portal, giving developers the opportunity to build and provide new value quickly and confidently, developers are supported by our complete developer?"
+    },
+    "four;CARDINAL": {
+        "awb": "Getting started with how\u00a0AutoQL\u00a0 can be broken out into, how many key stages: connect, train, implement, and go live??",
+        "awb_para": "Start with how AutoQL can be broken, how many key steps: connect, train, implement, and go live??",
+        "context": "Getting started with how\u00a0AutoQL\u00a0 can be broken out into four key stages: connect, train, implement, and go live.",
+        "score": 10.914548873901367,
+        "wba": "How many key stages: connect, train, implement, and go live, Getting started with how AutoQL can be broken out into?",
+        "wba_para": "How many key steps: connect, train, implement, and go live, get started with how AutoQL can be broken?"
+    },
+    "just 2 hours;TIME": {
+        "awb": "Average implementation time is, how long?",
+        "awb_para": "The average implementation time is, how long?",
+        "context": "Average implementation time is just 3-4 hours.",
+        "score": 12.138920783996582,
+        "wba": "How long , Average implementation time is?",
+        "wba_para": "How long is, Average implementation time?"
+    },
+    "just 2-3 hours;TIME": {
+        "awb": "Each widget takes, how long on average to implement??",
+        "awb_para": "Each widget takes, how long on average to implement??",
+        "context": "Each widget takes just 2-3 hours on average to implement.",
+        "score": 13.962287902832031,
+        "wba": "How long on average to implement, Each widget takes?",
+        "wba_para": "How long on average to implement, Each widget takes?"
+    },
+    "just 3-4 hours;TIME": {
+        "awb": "Average implementation time is, how long?",
+        "awb_para": "The average implementation time is, how long?",
+        "context": "Average implementation time is just 3-4 hours.",
+        "score": 12.138920783996582,
+        "wba": "How long , Average implementation time is?",
+        "wba_para": "How long is, Average implementation time?"
+    },
+    "just seconds;TIME": {
+        "awb": "Simply type questions in your own words and you\u2019ll receive data responses in, how long?",
+        "awb_para": "Simply type questions in your own words and you will receive data answers in, how long?",
+        "context": "Simply type questions in your own words and you\u2019ll receive data responses in just seconds.",
+        "score": 11.467227935791016,
+        "wba": "How long , Simply type questions in your own words and you\u2019ll receive data responses in?",
+        "wba_para": "How long, Just type questions in your own words and you will receive data answers in?"
+    },
+    "last month;DATE": {
+        "awb": "For example, a user might ask \u201cHow many of each item did Jane Doe buy, when did?",
+        "awb_para": "For example, a user could ask \"How many of each item purchased Jane Doe, when did it?",
+        "context": "For example, a user might ask \u201cHow many of each item did Jane Doe buy last month?",
+        "score": 10.607078552246094,
+        "wba": "When did , For example, a user might ask \u201cHow many of each item did Jane Doe buy?",
+        "wba_para": "When, for example, a user could ask \"How many of each item purchased Jane Doe?"
+    },
+    "one;CARDINAL": {
+        "awb": "As developers ourselves, we know it can be frustrating to do, how many off tasks in all the APIs we use, so we wanted to simplify these kinds of processes when it came to we own API??",
+        "awb_para": "As developers ourselves, we know that it can be frustrating to do, how many tasks off in all the APIs we use, so we wanted to simplify this kind of process when it came to owning us API?",
+        "context": "As developers ourselves, we know it can be frustrating to do one-off tasks in all the APIs we use, so we wanted to simplify these kinds of processes w",
+        "score": 9.878463745117188,
+        "wba": "How many off tasks in all the APIs we use, so we wanted to simplify these kinds of processes when it came to we own API, As developers ourselves, we know it can be frustrating to do?",
+        "wba_para": "How many tasks off in all the APIs we use, so we wanted to simplify this kind of process when it comes to owning us API, As developers ourselves, we know that this can be frustrating to do?"
+    },
+    "our Integrator Portal;ORG": {
+        "awb": "Integrators can easily set permission levels for users within, what is?",
+        "awb_para": "Integrators can easily set permission levels for users inside, what is?",
+        "context": "Integrators can easily set permission levels for users within our Integrator Portal.",
+        "score": 15.237298965454102,
+        "wba": "What is , Integrators can easily set permission levels for users within?",
+        "wba_para": "What, Integrators can easily set permission levels for users inside?"
+    },
+    "seconds;TIME": {
+        "awb": "Through our API, AutoQL receives, understands, and interprets natural language queries, dynamically generates a corresponding database query language statement, executes the DBQL statement against the database through a read-only connection, and returns relevant data to the end user within, how long?",
+        "awb_para": "Thanks to our API, AutoQL receives, understands and interprets requests in natural language, dynamically generates a language query from the corresponding database, executes the DBQL query against the database via a read-only connection, and returns the relevant data to the end user inside, how long?",
+        "context": " statement, executes the DBQL statement against the database through a read-only connection, and returns relevant data to the end user within seconds.",
+        "score": 9.15972900390625,
+        "wba": "How long , Through our API, AutoQL receives, understands, and interprets natural language queries, dynamically generates a corresponding database query language statement, executes the DBQL statement against the database through a read-only connection, and returns relevant data to the end user within?",
+        "wba_para": "How long, through our API, AutoQL receives, understands and interprets requests in natural language, dynamically generates a corresponding database query language instruction, executes DBQL instruction against the database via a read-only connection, and returns relevant data to the end user inside?"
+    },
+    "the Integrator Portal;ORG": {
+        "awb": "Initial setup is facilitated through a simple step-by-step process, enabling you to quickly and easily connect databases to AutoQL through, what is?",
+        "awb_para": "The initial configuration is facilitated by a simple step-by-step process, allowing you to quickly and easily connect databases to AutoQL through what?",
+        "context": "up is facilitated through a simple step-by-step process, enabling you to quickly and easily connect databases to AutoQL through the Integrator Portal.",
+        "score": 17.319950103759766,
+        "wba": "What is , Initial setup is facilitated through a simple step-by-step process, enabling you to quickly and easily connect databases to AutoQL through?",
+        "wba_para": "What, The initial configuration is facilitated by a simple step-by-step process, allowing you to quickly and easily connect databases to AutoQL through?"
+    },
+    "third;ORDINAL": {
+        "awb": "Keep users engaged in your app instead of losing Keep users to, where does party BI tools??",
+        "awb_para": "Keep users engaged in your application instead of losing Keep users to, where is BI tools gone??",
+        "context": "Keep users engaged in your app instead of losing Keep users to third-party BI tools.",
+        "score": 6.364163398742676,
+        "wba": "Where does party BI tools, Keep users engaged in your app instead of losing Keep users to?",
+        "wba_para": "Where is BI tools, keep users engaged in your application instead of losing Keep users to?"
+    },
+    "this month last year;DATE": {
+        "awb": "But if you went up to that coworker and asked, \u201cWhat were our total expenses last month compared to, when did?",
+        "awb_para": "But if you went to see this colleague and asked him: \"What were our total expenses last month compared to when?",
+        "context": "But if you went up to that coworker and asked, \u201cWhat were our total expenses last month compared to this month last year?",
+        "score": 11.663239479064941,
+        "wba": "When did , But if you went up to that coworker and asked, \u201cWhat were our total expenses last month compared to?",
+        "wba_para": "When did you do it, but if you went to that colleague and you asked, \"What were our total expenditures last month compared to?"
+    },
+    "this quarter;DATE": {
+        "awb": "When did , Which sales rep brought in the most new business?",
+        "awb_para": "When, what sales representative did he bring to the newest company?",
+        "context": "Which sales rep brought in the most new business this quarter?",
+        "score": 1.0012985467910767,
+        "wba": "Which sales rep brought in the most new business, when did?",
+        "wba_para": "Which sales representative brought the newest company, when did it?"
+    },
+    "today;DATE": {
+        "awb": "Embedding AutoQL allows SaaS providers and enterprise solution providers to leverage powerful AI technology to meet the ever-increasing demands of, when did s data-powered organizations and unlock unprecedented new business value??",
+        "awb_para": "The integration of AutoQL allows SaaS suppliers and business solution providers to take advantage of powerful AI technology to meet the ever-increasing demands of data organizations and unlock unprecedented new business value?",
+        "context": " leverage powerful AI technology to meet the ever-increasing demands of today\u2019s data-powered organizations and unlock unprecedented new business value",
+        "score": 9.65419864654541,
+        "wba": "When did s data-powered organizations and unlock unprecedented new business value, Embedding AutoQL allows SaaS providers and enterprise solution providers to leverage powerful AI technology to meet the ever-increasing demands of?",
+        "wba_para": "When data organizations and unlock new and unprecedented commercial value, Embedding AutoQL allows SaaS suppliers and business solution providers to leverage powerful AI technology to meet ever-increasing demands?"
+    },
+    "tomorrow;DATE": {
+        "awb": "Open the door to delivering custom AI solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of, when did?",
+        "awb_para": "Open the door to the delivery of custom AI solutions on a scale, allowing you to gain credibility and loyalty as you propel businesses to the future of data energy, when did it do so?",
+        "context": "ring custom AI solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of tomorrow.",
+        "score": 11.634490966796875,
+        "wba": "When did , Open the door to delivering custom AI solutions that scale, allowing you to earn credibility and loyalty as you propel businesses toward the data-powered future of?",
+        "wba_para": "When, Open the door to delivery of customized AI solutions to scale, allowing you to gain credibility and loyalty as you drive companies towards the future of data energy?"
+    },
+    "two;CARDINAL": {
+        "awb": "Our offer, how many pricing models: Pay-As-You-Go and Subscription-Based pricing??",
+        "awb_para": "Our offer, how many price models: Pay-As-You-Go and subscription-based prices??",
+        "context": "our offer two pricing models: Pay-As-You-Go and Subscription-Based pricing.",
+        "score": 10.875823974609375,
+        "wba": "How many pricing models: Pay-As-You-Go and Subscription-Based pricing, our offer?",
+        "wba_para": "How many price models: Pay-As-You-Go and subscription-based prices, our offer?"
+    },
+    "users\u2019;ORG": {
+        "awb": "What is information such as login credentials??",
+        "awb_para": "What is information such as login identifiers??",
+        "context": "users\u2019 information such as login credentials.",
+        "score": 4.134023666381836,
+        "wba": "What is information such as login credentials??",
+        "wba_para": "What is information such as login identifiers??"
+    },
+    "\u00a0;CARDINAL": {
+        "awb": "By implementing\u00a0AutoQL\u00a0in your solution, you can expect to??",
+        "awb_para": "By implementing AutoQL in your solution, you can expect to??",
+        "context": "oQL can be implemented in your solution, allowing your users to ask questions about your users data in natural language and instantly receive answers.",
+        "score": 10.574457168579102,
+        "wba": "By implementing AutoQL in your solution, you can expect to??",
+        "wba_para": "By implementing AutoQL in your solution, you can expect to??"
+    },
+    "\u00a0;DATE": {
+        "awb": "By implementing\u00a0AutoQL\u00a0in your solution, you can expect to??",
+        "awb_para": "By implementing AutoQL in your solution, you can expect to??",
+        "context": "oQL can be implemented in your solution, allowing your users to ask questions about your users data in natural language and instantly receive answers.",
+        "score": 10.574457168579102,
+        "wba": "By implementing AutoQL in your solution, you can expect to??",
+        "wba_para": "By implementing AutoQL in your solution, you can expect to??"
+    },
+    "\u00a0;ORG": {
+        "awb": "By implementing\u00a0AutoQL\u00a0in your solution, you can expect to??",
+        "awb_para": "By implementing AutoQL in your solution, you can expect to??",
+        "context": "oQL can be implemented in your solution, allowing your users to ask questions about your users data in natural language and instantly receive answers.",
+        "score": 10.574457168579102,
+        "wba": "By implementing AutoQL in your solution, you can expect to??",
+        "wba_para": "By implementing AutoQL in your solution, you can expect to??"
+    },
+    "\u00a0;PERSON": {
+        "awb": "By implementing\u00a0AutoQL\u00a0in your solution, you can expect to??",
+        "awb_para": "By implementing AutoQL in your solution, you can expect to??",
+        "context": "oQL can be implemented in your solution, allowing your users to ask questions about your users data in natural language and instantly receive answers.",
+        "score": 10.574457168579102,
+        "wba": "By implementing AutoQL in your solution, you can expect to??",
+        "wba_para": "By implementing AutoQL in your solution, you can expect to??"
+    },
+    "\u00a0Vanilla JS Widgets;ORG": {
+        "awb": "We currently offer these as React Widgets, what is iOS Components, and\u00a0Android Components??",
+        "awb_para": "We currently offer these as React Widgets, what is iOS Components, and Android Components?",
+        "context": "We currently offer these as React Widgets,\u00a0Vanilla JS Widgets,\u00a0iOS Components, and\u00a0Android Components.",
+        "score": 10.823801040649414,
+        "wba": "What is iOS Components, and Android Components, We currently offer these as React Widgets?",
+        "wba_para": "What is iOS Components, and Android Components, We currently offer them as Widgets React?"
+    },
+    "\u00a0iOS Components;ORG": {
+        "awb": "We currently offer these as React Widgets,\u00a0Vanilla JS Widgets, what is and\u00a0Android Components??",
+        "awb_para": "We currently offer these like React Widgets, Vanilla JS Widgets, which is and Android Components?",
+        "context": "We currently offer these as React Widgets,\u00a0Vanilla JS Widgets,\u00a0iOS Components, and\u00a0Android Components.",
+        "score": 11.573400497436523,
+        "wba": "What is and Android Components, We currently offer these as React Widgets, Vanilla JS Widgets?",
+        "wba_para": "What and Android components, We currently offer these as React Widgets, Vanilla JS Widgets?"
+    }
+}

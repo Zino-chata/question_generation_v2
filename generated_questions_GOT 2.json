@@ -1,0 +1,327 @@
+{
+    "\"The Long Night\";WORK_OF_ART": {
+        "context": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for \"The Long Night\")",
+        "question": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for, what was?",
+        "score": 14.708150863647461
+    },
+    "'The Guardian'';WORK_OF_ART": {
+        "context": "Lucy Mangan of ''The Guardian'' wrote that the final season \"has been a rushed business.",
+        "question": "Lucy Mangan of, what was wrote that the final season \"has been a rushed business??",
+        "score": 12.564336776733398
+    },
+    "1.73 million;CARDINAL": {
+        "context": "As of September 6, 2019, it has amassed over 1.73 million signatures. '",
+        "question": "As of September 6, 2019, it has amassed over, how many signatures??",
+        "score": 13.862643241882324
+    },
+    "13;CARDINAL": {
+        "context": "On Rotten Tomatoes, it holds an approval rating of 56% based on 13 reviews with an average rating of 6.32/10.",
+        "question": "On Rotten Tomatoes, it holds an approval rating of 56% based on, how many reviews with an average rating of 6.32/10??",
+        "score": 12.637420654296875
+    },
+    "56%;PERCENT": {
+        "context": "On Rotten Tomatoes, it holds an approval rating of 56% based on 13 reviews with an average rating of 6.32/10.",
+        "question": "On Rotten Tomatoes, it holds an approval rating of, what percentage based on 13 reviews with an average rating of 6.32/10??",
+        "score": 13.633026123046875
+    },
+    "6.32/10;CARDINAL": {
+        "context": "On Rotten Tomatoes, it holds an approval rating of 56% based on 13 reviews with an average rating of 6.32/10.",
+        "question": "On Rotten Tomatoes, it holds an approval rating of 56% based on 13 reviews with an average rating of, how many?",
+        "score": 13.8896484375
+    },
+    "April 14, 2019;DATE": {
+        "context": "A second teaser trailer was released on January 13, 2019, which announced the premiere date as April 14, 2019.",
+        "question": "A second teaser trailer was released on January 13, 2019, which announced the premiere date as, when did?",
+        "score": 15.712324142456055
+    },
+    "Benioff;PERSON": {
+        "context": "Benioff and Weiss said about the end of the series: \"From the beginning, we've wanted to tell a 70-hour movie.",
+        "question": "Who was and Weiss said about the end of the series: \"From the beginning, we've wanted to tell a 70-hour movie??",
+        "score": 12.210321426391602
+    },
+    "Bud Light;PERSON": {
+        "context": "HBO released a promotional advertisement with Bud Light on February 3, 2019 during Super Bowl LIII.",
+        "question": "HBO released a promotional advertisement with, who was on February 3, 2019 during Super Bowl LIII??",
+        "score": 16.208438873291016
+    },
+    "Cersei Lannister;ORG": {
+        "context": "Lena Headey had a \"mixed\" initial reaction to the manner of death of Cersei Lannister, the character she played.",
+        "question": "Lena Headey had a \"mixed\" initial reaction to the manner of death of, what is the character she played??",
+        "score": 16.310394287109375
+    },
+    "Cersei;ORG": {
+        "context": "Lena Headey had a \"mixed\" initial reaction to the manner of death of Cersei Lannister, the character she played.",
+        "question": "Lena Headey had a \"mixed\" initial reaction to the manner of death of, what is Lannister, the character she played??",
+        "score": 13.562782287597656
+    },
+    "Comedy;PERSON": {
+        "context": "Outstanding Sound Mixing for a Comedy or Drama Series (One Hour)",
+        "question": "Outstanding Sound Mixing for a, who was or Drama Series (One Hour??",
+        "score": 12.451528549194336
+    },
+    "D. B. Weiss;PERSON": {
+        "context": "The season was adapted for television by David Benioff and D. B. Weiss.",
+        "question": "Series creators and executive producers David Benioff and, who was serve as showrunners for the eighth season??",
+        "score": 12.179704666137695
+    },
+    "David Benioff;PERSON": {
+        "context": "Series creators and executive producers David Benioff and D. B. Weiss serve as showrunners for the eighth season.",
+        "question": "Series creators and executive producers, who was and D. B. Weiss serve as showrunners for the eighth season??",
+        "score": 16.863189697265625
+    },
+    "December 3, 2019;DATE": {
+        "context": "The season will be released on Ultra HD Blu-ray, Blu-ray, and DVD on December 3, 2019.",
+        "question": "The season will be released on Ultra HD Blu-ray, Blu-ray, and DVD on, when did?",
+        "score": 16.90019989013672
+    },
+    "December 6, 2018;DATE": {
+        "context": "On December 6, 2018, HBO released the first official teaser trailer for the eighth season.",
+        "question": "On, when did HBO released the first official teaser trailer for the eighth season??",
+        "score": 16.768970489501953
+    },
+    "Dubrovnik;GPE": {
+        "context": "Many exterior scenes were filmed in Northern Ireland and a few in Dubrovnik, Croatia; Paint Hall",
+        "question": "Many exterior scenes were filmed in Northern Ireland and a few in, in what Croatia; Paint Hall?",
+        "score": 13.064623832702637
+    },
+    "February 28;DATE": {
+        "context": "On February 28, posters of many of the main characters sitting upon the Iron Throne were released.",
+        "question": "On, when did posters of many of the main characters sitting upon the Iron Throne were released??",
+        "score": 16.56793212890625
+    },
+    "February 3, 2019;DATE": {
+        "context": "HBO released a promotional advertisement with Bud Light on February 3, 2019 during Super Bowl LIII.",
+        "question": "HBO released a promotional advertisement with Bud Light on, when did during Super Bowl LIII??",
+        "score": 15.762779235839844
+    },
+    "February 6, 2019;DATE": {
+        "context": "Later, first-look photos of several main characters were released on February 6, 2019.",
+        "question": "Later, first-look photos of several main characters were released on, when did?",
+        "score": 16.305038452148438
+    },
+    "Game of Thrones;ORG": {
+        "context": "HBO announced the eighth and final season of the fantasy drama television series ''Game of Thrones'' in July 2016.",
+        "question": "HBO announced the eighth and final season of the fantasy drama television series, what is in July 2016??",
+        "score": 12.241840362548828
+    },
+    "HBO;ORG": {
+        "context": "HBO released a promotional advertisement with Bud Light on February 3, 2019 during Super Bowl LIII.",
+        "question": "What is released a promotional advertisement with Bud Light on February 3, 2019 during Super Bowl LIII??",
+        "score": 12.613424301147461
+    },
+    "Harry Strickland;PERSON": {
+        "context": "Marc Rissmann was cast as Harry Strickland, the commander of the Golden Company.",
+        "question": "Marc Rissmann was cast as, who was the commander of the Golden Company??",
+        "score": 18.028154373168945
+    },
+    "Headey;PERSON": {
+        "context": "Headey would rather have Cersei die by \"some big piece or fight with somebody\".",
+        "question": "Who was would rather have Cersei die by \"some big piece or fight with somebody??",
+        "score": 15.074625015258789
+    },
+    "Ian Ruhfass;PERSON": {
+        "context": "Angus Wall, Kirk Shintani, Shahana Khan, Ian Ruhfass, and Rustam Hasanov",
+        "question": "Angus Wall, Kirk Shintani, Shahana Khan, who was and Rustam Hasanov?",
+        "score": 13.975679397583008
+    },
+    "January 13, 2019;DATE": {
+        "context": "A second teaser trailer was released on January 13, 2019, which announced the premiere date as April 14, 2019.",
+        "question": "A second teaser trailer was released on, when did which announced the premiere date as April 14, 2019??",
+        "score": 16.78457260131836
+    },
+    "July 2016;DATE": {
+        "context": "HBO announced the eighth and final season of the fantasy drama television series ''Game of Thrones'' in July 2016.",
+        "question": "HBO announced the eighth and final season of the fantasy drama television series ''Game of Thrones'' in, when did?",
+        "score": 16.785964965820312
+    },
+    "July 2018;DATE": {
+        "context": "Filming officially began on October 23, 2017 and concluded in July 2018.",
+        "question": "Filming officially began on October 23, 2017 and concluded in, when did?",
+        "score": 14.858558654785156
+    },
+    "Kelly Lawler;PERSON": {
+        "context": "Kelly Lawler of ''USA Today'' wrote that the ultimate ending of the series was not what fans \"signed up for\".",
+        "question": "Who was of ''USA Today'' wrote that the ultimate ending of the series was not what fans \"signed up for??",
+        "score": 14.90599536895752
+    },
+    "Kevin Alexander;PERSON": {
+        "context": "Kevin Alexander, Candice Banks, Nicola Mount, and Rosalia Culora (for \"The Long Night\")",
+        "question": "Who was Candice Banks, Nicola Mount, and Rosalia Culora (for \"The Long Night??",
+        "score": 12.068031311035156
+    },
+    "Lena Headey;PERSON": {
+        "context": "Lena Headey had a \"mixed\" initial reaction to the manner of death of Cersei Lannister, the character she played.",
+        "question": "Who was had a \"mixed\" initial reaction to the manner of death of Cersei Lannister, the character she played??",
+        "score": 16.57903289794922
+    },
+    "Lucy Mangan;PERSON": {
+        "context": "Lucy Mangan of ''The Guardian'' wrote that the final season \"has been a rushed business.",
+        "question": "Who was of ''The Guardian'' wrote that the final season \"has been a rushed business??",
+        "score": 15.898496627807617
+    },
+    "Marc Rissmann;PERSON": {
+        "context": "Marc Rissmann was cast as Harry Strickland, the commander of the Golden Company.",
+        "question": "Who was was cast as Harry Strickland, the commander of the Golden Company??",
+        "score": 16.432270050048828
+    },
+    "Missandei;GPE": {
+        "context": "But I would've loved some more scenes with me and Missandei.",
+        "question": "But I would've loved some more scenes with me and, in what?",
+        "score": 13.95179557800293
+    },
+    "Missandei;PERSON": {
+        "context": "But I would've loved some more scenes with me and Missandei.",
+        "question": "But I would've loved some more scenes with me and, who was?",
+        "score": 15.172313690185547
+    },
+    "Nathalie Emmanuel;PERSON": {
+        "context": "Nathalie Emmanuel, who played Missandei, was heartbroken when she read her character's sudden demise: \"...",
+        "question": "Who was who played Missandei, was heartbroken when she read her character's sudden demise??",
+        "score": 15.280487060546875
+    },
+    "Nicola Mathews;ORG": {
+        "context": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for \"The Long Night\")",
+        "question": "Jane Walker, Kay Bilk, Marianna Kyriacou, what is and Pamela Smyth (for \"The Long Night??",
+        "score": 16.971920013427734
+    },
+    "Nicola Mount;ORG": {
+        "context": "Kevin Alexander, Candice Banks, Nicola Mount, and Rosalia Culora (for \"The Long Night\")",
+        "question": "Kevin Alexander, Candice Banks, what is and Rosalia Culora (for \"The Long Night??",
+        "score": 15.079347610473633
+    },
+    "Northern Ireland;GPE": {
+        "context": "Many exterior scenes were filmed in Northern Ireland and a few in Dubrovnik, Croatia; Paint Hall",
+        "question": "In what and a few in Dubrovnik, Croatia; Paint Hall, Many exterior scenes were filmed in?",
+        "score": 12.748479843139648
+    },
+    "October 23, 2017;DATE": {
+        "context": "Filming officially began on October 23, 2017 and concluded in July 2018.",
+        "question": "Filming officially began on, when did and concluded in July 2018??",
+        "score": 12.513056755065918
+    },
+    "Outstanding Supporting Actor;WORK_OF_ART": {
+        "context": "It won for Outstanding Drama Series and Peter Dinklage won for Outstanding Supporting Actor in a Drama Series.",
+        "question": "It won for Outstanding Drama Series and Peter Dinklage won for, what was in a Drama Series??",
+        "score": 15.756750106811523
+    },
+    "Paint Hall;ORG": {
+        "context": "Many exterior scenes were filmed in Northern Ireland and a few in Dubrovnik, Croatia; Paint Hall",
+        "question": "Many exterior scenes were filmed in Northern Ireland and a few in Dubrovnik, Croatia, what is?",
+        "score": 14.014001846313477
+    },
+    "Pamela Smyth;PERSON": {
+        "context": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for \"The Long Night\")",
+        "question": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and, who was for \"The Long Night??",
+        "score": 14.714812278747559
+    },
+    "Peter Dinklage;PERSON": {
+        "context": "It won for Outstanding Drama Series and Peter Dinklage won for Outstanding Supporting Actor in a Drama Series.",
+        "question": "It won for Outstanding Drama Series and, who was won for Outstanding Supporting Actor in a Drama Series??",
+        "score": 16.921932220458984
+    },
+    "Prosthetic;NORP": {
+        "context": "Outstanding Prosthetic Makeup for a Series, Limited Series, Movie or Special",
+        "question": "Outstanding, what is Makeup for a Series, Limited Series, Movie or Special?",
+        "score": 15.07783031463623
+    },
+    "Ramin Djawadi;PERSON": {
+        "context": "Ramin Djawadi returned as the series' composer for the eighth season.",
+        "question": "Who was returned as the series' composer for the eighth season??",
+        "score": 17.361133575439453
+    },
+    "Roeper;PERSON": {
+        "context": "However, Roeper noted that social media was not yet widely used during much of this time period.",
+        "question": "However, who was noted that social media was not yet widely used during much of this time period??",
+        "score": 14.83184814453125
+    },
+    "Ronan Hill;ORG": {
+        "context": "Onnalee Blank, Mathew Waters, Simon Kerr, Danny Crowley, and Ronan Hill (for \"The Long Night\")",
+        "question": "Onnalee Blank, Mathew Waters, Simon Kerr, Danny Crowley, and, what is for \"The Long Night??",
+        "score": 15.409540176391602
+    },
+    "Rosalia Culora;PERSON": {
+        "context": "Kevin Alexander, Candice Banks, Nicola Mount, and Rosalia Culora (for \"The Long Night\")",
+        "question": "Kevin Alexander, Candice Banks, Nicola Mount, and, who was for \"The Long Night??",
+        "score": 15.61618423461914
+    },
+    "Rotten Tomatoes;PERSON": {
+        "context": "On Rotten Tomatoes, it holds an approval rating of 56% based on 13 reviews with an average rating of 6.32/10.",
+        "question": "On, who was it holds an approval rating of 56% based on 13 reviews with an average rating of 6.32/10??",
+        "score": 16.51667022705078
+    },
+    "Rustam Hasanov;ORG": {
+        "context": "Angus Wall, Kirk Shintani, Shahana Khan, Ian Ruhfass, and Rustam Hasanov",
+        "question": "Angus Wall, Kirk Shintani, Shahana Khan, Ian Ruhfass, and, what is?",
+        "score": 15.579833030700684
+    },
+    "September 2017;DATE": {
+        "context": "The directors for the eighth season were announced in September 2017.",
+        "question": "The directors for the eighth season were announced in, when did?",
+        "score": 14.97088623046875
+    },
+    "September 6, 2019;DATE": {
+        "context": "As of September 6, 2019, it has amassed over 1.73 million signatures. '",
+        "question": "As of, when did it has amassed over 1.73 million signatures??",
+        "score": 15.8095064163208
+    },
+    "Super Bowl LIII;EVENT": {
+        "context": "HBO released a promotional advertisement with Bud Light on February 3, 2019 during Super Bowl LIII.",
+        "question": "HBO released a promotional advertisement with Bud Light on February 3, 2019 during, what event?",
+        "score": 17.261619567871094
+    },
+    "The Long Night;WORK_OF_ART": {
+        "context": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for \"The Long Night\")",
+        "question": "Jane Walker, Kay Bilk, Marianna Kyriacou, Nicola Mathews, and Pamela Smyth (for, what was?",
+        "score": 14.708150863647461
+    },
+    "The final season's;DATE": {
+        "context": "The final season's \"broseph mentality shined through,\" shunting the interaction between female characters.",
+        "question": "When did broseph mentality shined through,\" shunting the interaction between female characters??",
+        "score": 12.322820663452148
+    },
+    "Ultra HD Blu-ray;ORG": {
+        "context": "The season will be released on Ultra HD Blu-ray, Blu-ray, and DVD on December 3, 2019.",
+        "question": "The season will be released on, what is Blu-ray, and DVD on December 3, 2019??",
+        "score": 16.205503463745117
+    },
+    "Weiss;ORG": {
+        "context": "David Benioff and D. B. Weiss (for \"The Iron Throne\")",
+        "question": "The season was adapted for television by David Benioff and D. B, what is?",
+        "score": 12.054393768310547
+    },
+    "eighth;ORDINAL": {
+        "context": "Series creators and executive producers David Benioff and D. B. Weiss serve as showrunners for the eighth season.",
+        "question": "Series creators and executive producers David Benioff and D. B. Weiss serve as showrunners for the, where does season??",
+        "score": 12.46272087097168
+    },
+    "nearly 55 million;CARDINAL": {
+        "context": "The season premiere was reportedly pirated by nearly 55 million people within the first 24 hours of release.",
+        "question": "The season premiere was reportedly pirated by, how many people within the first 24 hours of release??",
+        "score": 14.629061698913574
+    },
+    "season;DATE": {
+        "context": "mixed reviews from critics, in contrast to critical acclaim of previous seasons, and is the lowest-rated of the series on the website Rotten Tomatoes.",
+        "question": "It is the lowest-rated, when did of the series on the website??",
+        "score": 13.068342208862305
+    },
+    "the Golden Company;ORG": {
+        "context": "Marc Rissmann was cast as Harry Strickland, the commander of the Golden Company.",
+        "question": "Marc Rissmann was cast as Harry Strickland, the commander of, what is?",
+        "score": 15.502729415893555
+    },
+    "the Iron Throne;LOC": {
+        "context": "On February 28, posters of many of the main characters sitting upon the Iron Throne were released.",
+        "question": "On February 28, posters of many of the main characters sitting upon, what is were released??",
+        "score": 16.133024215698242
+    },
+    "the eighth season;DATE": {
+        "context": "Series creators and executive producers David Benioff and D. B. Weiss serve as showrunners for the eighth season.",
+        "question": "Series creators and executive producers David Benioff and D. B. Weiss serve as showrunners for, when did?",
+        "score": 13.826990127563477
+    },
+    "the final season;DATE": {
+        "context": "Lucy Mangan of ''The Guardian'' wrote that the final season \"has been a rushed business.",
+        "question": "Lucy Mangan of ''The Guardian'' wrote that, when did has been a rushed business??",
+        "score": 14.719929695129395
+    }
+}
