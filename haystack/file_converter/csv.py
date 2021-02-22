@@ -50,10 +50,10 @@ class CSVToTextConverter(BaseConverter):
             for row in csvreader:
                 if count>0:
                     data = {}
-                    data["question_new"] = row[1].lower()
-                    data["question_new"] = re.sub("\?|\!|,|\.|\\\|\\/|\\(|\\)|\-", " ", data["question_new"])
-                    data["question_new"] = re.sub("\’|\'|\\\"", "", data["question_new"])
-                    data["question_new"] = " ".join(data["question_new"].split())
+                    data["question"] = row[1].lower()
+                    data["question"] = re.sub("\?|\!|,|\.|\\\|\\/|\\(|\\)|\-", " ", data["question"])
+                    data["question"] = re.sub("\’|\'|\\\"", "", data["question"])
+                    data["question"] = " ".join(data["question"].split())
 
                     cleaned_ans=remove_html_tags(row[2]).replace(":"," ").replace(";"," ")
                     data["answer"]=clean_sent(row[2])

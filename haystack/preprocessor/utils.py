@@ -298,6 +298,7 @@ def convert_file_to_dicts(dir_path: str, clean_func: Optional[Callable] = None) 
             suffix2converter[file_suffix] = CSVToTextConverter()
 
     documents = []
+    new_questions = []
     original_qa_pairs=[]
     nlp_qg = pipeline("e2e-qg")
     for suffix, paths in suffix2paths.items():
@@ -315,9 +316,18 @@ def convert_file_to_dicts(dir_path: str, clean_func: Optional[Callable] = None) 
             #resolve references
             text=coref_resolution(text)
 
+            #generate questions from entire text
+            new_questions.extend(nlp_qg(text))
+
+            #generate questions from each paragraph
+            paragraphs = [sub["answer"] for sub in document["meta"]]
+            for paragraph in paragraphs:
+                new_questions.extend(nlp_qg(paragraph))
+
             #sent tokenize
             sents= sent_tokenize(text,path.name)
 
+            '''
             #identify entities
             ners, noun_chunks,_ = compute_ner_and_noun_chunks(text)
             ner=[]
@@ -325,25 +335,15 @@ def convert_file_to_dicts(dir_path: str, clean_func: Optional[Callable] = None) 
                 ent=ent.replace("\n","")
                 if ent!="":
                     ner.append((ent,ent_type))
+            '''
 
-            insights=[]
             for text in sents:
-                tracing = {}
-                #tracing["sent"] = text
-                #ners_, noun_chunks_,pos_tags = compute_ner_and_noun_chunks(text)
-                #tracing["ner"] = ners_
-                #tracing["noun_chunks"] = noun_chunks_
-                #tracing["pos"] = pos_tags
-
-                # get questions from sentence
-                #tracing["question"]= nlp_qg(text)
-
-                #insights.append(tracing)
-                insights.extend(nlp_qg(text))
+                #generate questions from each sentence
+                new_questions.extend(nlp_qg(text))
 
                 documents.append({"text": text, "meta": {"name": path.name}})
 
-    return documents,list(set(ner)),original_qa_pairs, insights
+    return documents,original_qa_pairs, new_questions
 
 """Function that executes coreference resolution on a given text"""
 def coref_resolution(text):
