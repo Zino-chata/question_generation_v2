@@ -10,14 +10,16 @@ from numpy.linalg import norm
 import json
 import os
 
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForSeq2SeqLM
+
 from haystack.preprocessor.cleaning import clean_wiki_text
 from haystack.preprocessor.utils import convert_file_to_dicts, sent_tokenize
 from haystack.utils import print_answers
 
-################TF_DF############################
+################TF_IDF############################
 from haystack.document_store.memory import InMemoryDocumentStore
 from haystack.retriever.sparse import TfidfRetriever
-from haystack.retriever.dense import EmbeddingRetriever
 from haystack.reader.farm import FARMReader
 from haystack.pipeline import ExtractiveQAPipeline
 
@@ -39,10 +41,6 @@ def qa_pipeline():
 
     #Retrievers help narrowing down the scope for the Reader to smaller units of text where a given question could be answered.
     retriever = TfidfRetriever(document_store=document_store)
-    ranking_retriever=EmbeddingRetriever(document_store=document_store,
-                                         embedding_model="facebook/dpr-ctx_encoder-single-nq-base",
-                                         model_format="sentence_transformers")
-
     reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
     pipe = ExtractiveQAPipeline(reader, retriever)
 
@@ -51,7 +49,7 @@ def qa_pipeline():
     translator_en = TransformersTranslator("Helsinki-NLP/opus-mt-fr-en")
 
     #call generator
-    qa_generator = QA_Generator(translator_fr, translator_en, retriever,ranking_retriever, reader, pipe, faq, qg)
+    qa_generator = QA_Generator(translator_fr, translator_en, retriever, reader, pipe, faq, qg)
     generated_qas = qa_generator.generate()
     num_gen = len(generated_qas)
 
@@ -61,17 +59,17 @@ def qa_pipeline():
         os.makedirs("outputs")
     with open('outputs/qg_eqBank_.json', 'w') as outfile:
         outfile.write(generated_qas)
+        #json.dump(generated_qas, outfile, indent=2)
 
     end = time.time()
     print("Generated a total of ", num_gen, " questions in ", int((end-start)/60), " mins"  )
 
 
 class QA_Generator():
-    def __init__(self, trans_fr, trans_en, retriever, ranking_retriever, reader, pipe, qa_dict, generated_questions):
+    def __init__(self, trans_fr, trans_en, retriever, reader, pipe, qa_dict, generated_questions):
         self.trans_fr = trans_fr
         self.trans_en = trans_en
         self.retriever = retriever
-        self.ranking_retriever = ranking_retriever
         self.reader = reader
         self.pipe = pipe
         self.qa_dict=qa_dict
@@ -92,30 +90,31 @@ class QA_Generator():
         #translation of generated questions
         self.trans_gen_questions = self.back_translator(self.generated_questions)
 
+        # paraphrase all questions
+        self.all_questions = self.original_questions + self.generated_questions + self.translated_questions + self.trans_gen_questions
+        self.all_answers = self.original_answers + self.generated_answers + self.original_answers + self.generated_answers
+        self.all_questions, self.all_answers = self.paraphraser(self.all_questions, self.all_answers)
+
     def generate(self):
         qa = list(set(self.origQue_SummAns() + self.transQue_SummAns() + self.transQue_SummAns()+\
-        self.genQue_Ans() + self.genQue_SummAns() + self.transGenQue_Ans() + self.transQue_SummAns()))
+        self.genQue_Ans() + self.genQue_SummAns() + self.transGenQue_Ans() + self.transQue_SummAns() + self.allQA_paraphrased()))
 
         print("Ranking final pairs")
         queries = [question for question,_,_ in qa]
         answers = [answer for _,answer,_ in qa]
-        embed_queries = self.ranking_retriever.embed(queries)
-        embed_answers = self.ranking_retriever.embed(answers)
-        scores = dot(embed_queries, embed_answers) / (norm(embed_queries) * norm(embed_answers))
+        evaluator=QAEvaluator()
+        rank = evaluator.get_scores(queries, answers)
 
         final_qa_dict = []
+
         for i in range(len(qa)):
-            question,answer, type = qa[i]
+            index = rank[i]
+            question,answer, type = qa[index]
             q_a={}
             q_a["question"]=question
             q_a["answer"]=answer
             q_a["type"] = type
-            q_a["score"]=scores[i]
 
-            #embed_query = self.ranking_retriever.embed([question])
-            #embed_answer = self.ranking_retriever.embed([answer])
-            #score = dot(embed_query, embed_answer) / (norm(embed_query) * norm(embed_answer))
-            #q_a["score"] = score
             final_qa_dict.append(q_a)
 
         return final_qa_dict
@@ -191,6 +190,13 @@ class QA_Generator():
 
         return qa
 
+    def allQA_paraphrased(self):
+        print("Pairing all paraphrased questions with answers")
+        type = ["allQA_paraphrased"] * len(self.all_questions)
+        qa = list(map(lambda x, y, z: (x, y, z), self.all_questions, self.all_answers, type))
+
+        return qa
+
     def back_translator(self,text):
         print("Back-translation")
         translated = []
@@ -221,6 +227,8 @@ class QA_Generator():
 
         return qa_pairs
 
+
+
     def ext_summarizer(self,text):
         print("Extractive Summarization")
         summaries = []
@@ -229,9 +237,98 @@ class QA_Generator():
             sents = sent_tokenize(sent, "")
             summ_1 = sents[0]
             summ_2=sents[:2]
-            summaries.append(" ". join(summ_1).lower())
-            summaries.append(" ".join(summ_2).lower())
+            summaries.append([summ_1.lower()])
+            summaries.append([" ".join(summ_2).lower()])
+
         return summaries
+
+    def paraphraser(self, questions, answers):
+        tokenizer = AutoTokenizer.from_pretrained("Vamsi/T5_Paraphrase_Paws")
+        model = AutoModelForSeq2SeqLM.from_pretrained("Vamsi/T5_Paraphrase_Paws")
+
+        sentences = ["paraphrase: " + sentence + " </s>" for sentence in questions]
+
+        paraphrases=[]
+        corresponding_answers=[]
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+        for i in range(len(sentences)):
+            text= sentences[i]
+
+            encoding = tokenizer.encode_plus(text, pad_to_max_length=True, return_tensors="pt")
+            input_ids, attention_masks = encoding["input_ids"].to(self.device), encoding["attention_mask"].to(self.device)
+            model.to(self.device)
+            outputs = model.generate(
+                input_ids=input_ids, attention_mask=attention_masks,
+                max_length=256,
+                do_sample=True,
+                top_k=200,
+                top_p=0.95,
+                early_stopping=True,
+                num_return_sequences=10
+            )
+            current=[]
+            for output in outputs:
+                line = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+                current.append(line.lower())
+            current=list(set(current))
+            answer = [answers[i]] * len(current)
+            paraphrases.extend(current)
+            corresponding_answers.extend(answer)
+
+        return paraphrases, corresponding_answers
+
+
+class QAEvaluator():
+    def __init__(self, model_dir=None):
+
+        QAE_PRETRAINED = "iarfmoose/bert-base-cased-qa-evaluator"
+        self.SEQ_LENGTH = 512
+
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+        self.qae_tokenizer = AutoTokenizer.from_pretrained(QAE_PRETRAINED)
+        self.qae_model = AutoModelForSequenceClassification.from_pretrained(QAE_PRETRAINED)
+        self.qae_model.to(self.device)
+
+    def encode_qa_pairs(self, questions, answers):
+        encoded_pairs = []
+        for i in range(len(questions)):
+            encoded_qa = self._encode_qa(questions[i], answers[i])
+            encoded_pairs.append(encoded_qa.to(self.device))
+        return encoded_pairs
+
+    def get_scores(self, questions, answers):
+        encoded_qa_pairs=self.encode_qa_pairs(questions,answers)
+        scores = {}
+        self.qae_model.eval()
+        with torch.no_grad():
+            for i in range(len(encoded_qa_pairs)):
+                scores[i] = self._evaluate_qa(encoded_qa_pairs[i])
+
+        return [
+            k for k, v in sorted(scores.items(), key=lambda item: item[1], reverse=True)
+        ]
+
+    def _encode_qa(self, question, answer):
+        if type(answer) is list:
+            for a in answer:
+                if a["correct"]:
+                    correct_answer = a["answer"]
+        else:
+            correct_answer = answer
+        return self.qae_tokenizer(
+            text=question,
+            text_pair=correct_answer,
+            padding="max_length",
+            max_length=self.SEQ_LENGTH,
+            truncation=True,
+            return_tensors="pt",
+        )
+
+    def _evaluate_qa(self, encoded_qa_pair):
+        output = self.qae_model(**encoded_qa_pair)
+        return output[0][0][1]
 
 if __name__ == "__main__":
     qa_pipeline()
