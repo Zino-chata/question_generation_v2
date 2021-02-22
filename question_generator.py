@@ -57,7 +57,7 @@ def qa_pipeline():
     generated_qas = json.dumps(generated_qas, indent=2)
     if not os.path.exists("outputs"):
         os.makedirs("outputs")
-    with open('outputs/qg_eqBank_.json', 'w') as outfile:
+    with open('outputs/qg_eqBank_demo.json', 'w') as outfile:
         outfile.write(generated_qas)
         #json.dump(generated_qas, outfile, indent=2)
 
@@ -118,7 +118,6 @@ class QA_Generator():
             final_qa_dict.append(q_a)
 
         return final_qa_dict
-
 
     def origQue_SummAns(self):
         print("Pairing original questions with summaries of original answers")
